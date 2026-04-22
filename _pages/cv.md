@@ -9,56 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+{% assign cv_data = site.data.cv %}
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
+{% for edu in cv_data.education %}
+- **{{ edu.institution }}** — {{ edu.area }}{% if edu.endDate %}, {{ edu.endDate }}{% endif %}
+{% endfor %}
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Work Experience
+{% for job in cv_data.work %}
+- **{{ job.position }}**, {{ job.company }}
+{% endfor %}
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Publications
+{% for pub in cv_data.publications %}
+- {{ pub.name }}. *{{ pub.publisher }}*, {{ pub.releaseDate | slice: 0, 4 }}.
+{% endfor %}
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Skills
+{% for skill in cv_data.skills %}
+- **{{ skill.name }}**: {{ skill.keywords | join: ", " }}
+{% endfor %}
