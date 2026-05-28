@@ -36,8 +36,8 @@
       "institution": "UC San Diego",
       "area": "Computer Science (MS)",
       "studyType": "Master of Science",
-      "startDate": "2025",
-      "endDate": "",
+      "startDate": "2026.9",
+      "endDate": "current",
       "gpa": null,
       "courses": []
     },
@@ -45,8 +45,8 @@
       "institution": "UC San Diego",
       "area": "Exchange Student",
       "studyType": "Exchange Student",
-      "startDate": "",
-      "endDate": "2024",
+      "startDate": "2025.3",
+      "endDate": "2025.6",
       "gpa": null,
       "courses": ["CSE 152B: Computer Vision II (A)"]
     },

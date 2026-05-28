@@ -11,7 +11,15 @@ redirect_from:
 
 ## Education
 {% for edu in cv_data.education %}
-- **{{ edu.institution }}** - {{ edu.area }}{% if edu.endDate %}, {{ edu.endDate }}{% endif %}
+{% assign date_range = "" %}
+{% if edu.startDate != "" and edu.endDate != "" %}
+  {% assign date_range = edu.startDate | append: "-" | append: edu.endDate %}
+{% elsif edu.endDate != "" %}
+  {% assign date_range = edu.endDate %}
+{% elsif edu.startDate != "" %}
+  {% assign date_range = edu.startDate %}
+{% endif %}
+- **{{ edu.institution }}** - {{ edu.area }}{% if date_range != "" %}, {{ date_range }}{% endif %}
 {% endfor %}
 
 ## Work Experience
