@@ -15,8 +15,6 @@ I am looking for research opportunities where I can continue developing as a res
 
 ## Research Interests
 
-- Medical image analysis
-- Lung nodule detection
 - Computer vision
-- Deep learning systems
-- False-positive reduction and model evaluation
+- Deep learning
+- Medical image analysis

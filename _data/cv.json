@@ -4,7 +4,7 @@
     "email": "0zcharles318@gmail.com",
     "phone": "",
     "website": "https://0ozcharles.github.io",
-    "summary": "Incoming MS CS student at UC San Diego. Research interests in Computer Vision, Medical Image Analysis, and Deep Learning.",
+    "summary": "Computer Science student with research interests in Computer Vision, Deep Learning, and Medical Image Analysis.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,7 +33,7 @@
   ],
   "education": [
     {
-      "institution": "University of California, San Diego",
+      "institution": "UC San Diego",
       "area": "Computer Science (MS)",
       "studyType": "Master of Science",
       "startDate": "2025",
@@ -42,8 +42,8 @@
       "courses": []
     },
     {
-      "institution": "University of California, San Diego",
-      "area": "Computer Vision (Exchange)",
+      "institution": "UC San Diego",
+      "area": "Exchange Student",
       "studyType": "Exchange Student",
       "startDate": "",
       "endDate": "2024",
@@ -63,11 +63,11 @@
   "skills": [
     {
       "name": "Deep Learning",
-      "keywords": ["PyTorch", "CNNs", "3D CNNs", "Vision Transformers", "Transformers", "ResNet-style backbones", "transfer learning", "self-supervised learning", "data augmentation", "model training", "ROC/AUC/FROC evaluation"]
+      "keywords": ["PyTorch", "CNNs", "3D CNNs", "Vision Transformers", "Transformers", "ResNet-style backbones", "transfer learning", "self-supervised learning"]
     },
     {
       "name": "Computer Vision",
-      "keywords": ["Medical Image Analysis", "Object Detection", "3D Image Processing"]
+      "keywords": ["Image Classification", "Object Detection", "Image Segmentation", "Visual Recognition", "Feature Extraction", "3D Image Processing", "Medical Image Analysis"]
     },
     {
       "name": "Programming",

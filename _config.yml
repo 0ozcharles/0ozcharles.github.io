@@ -4,7 +4,7 @@ site_theme               : "default"
 title                    : "Zhaoxu Zheng"
 title_separator          : "-"
 name                     : &name "Zhaoxu Zheng"
-description              : &description "Computer Vision, Medical Image Analysis, and Deep Learning"
+description              : &description "Computer Vision, Deep Learning, and Medical Image Analysis"
 url                      : "https://0ozcharles.github.io"
 baseurl                  : ""
 repository               : "0ozcharles/0ozcharles.github.io"
@@ -14,9 +14,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Zhaoxu Zheng"
   pronouns         :
-  bio              : "Computer Science student focused on Computer Vision, Medical Image Analysis, and Deep Learning."
+  bio              : "Computer Science student focused on Computer Vision, Deep Learning, and Medical Image Analysis."
   location         : "Jiangsu, China"
-  employer         : "Harbin University of Science and Technology"
+  employer         : "UC San Diego"
   uri              :
   email            : "0zcharles318@gmail.com"
 
