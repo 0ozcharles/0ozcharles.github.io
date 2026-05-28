@@ -27,25 +27,7 @@
       "website": "",
       "startDate": "",
       "endDate": "",
-      "summary": "Research internship focusing on deep learning and medical image analysis.",
-      "highlights": []
-    },
-    {
-      "company": "Neusoft",
-      "position": "Software Engineering Intern",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "company": "Banmu",
-      "position": "Intern",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "summary": "Research internship focusing on computer vision, deep learning, and medical image analysis.",
       "highlights": []
     }
   ],
@@ -81,7 +63,7 @@
   "skills": [
     {
       "name": "Deep Learning",
-      "keywords": ["PyTorch", "U-Net++", "CNN", "Transformer"]
+      "keywords": ["PyTorch", "CNNs", "3D CNNs", "Vision Transformers", "Transformers", "ResNet-style backbones", "transfer learning", "self-supervised learning", "data augmentation", "model training", "ROC/AUC/FROC evaluation"]
     },
     {
       "name": "Computer Vision",
@@ -118,14 +100,5 @@
     }
   ],
   "presentations": [],
-  "teaching": [],
-  "portfolio": [
-    {
-      "name": "Pulmonary Nodule Detection System",
-      "category": "portfolio",
-      "date": "2025",
-      "url": "",
-      "description": "A two-stage lung nodule detection system based on U-Net++ and Multi-Scale Gradual Integration CNN, trained and evaluated on LUNA16. Includes a PyQt5 desktop GUI with role-based access for clinical workflow."
-    }
-  ]
+  "teaching": []
 }

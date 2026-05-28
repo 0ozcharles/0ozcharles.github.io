@@ -1,22 +1,22 @@
-# Basic Site Settings
+﻿# Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
 title                    : "Zhaoxu Zheng"
 title_separator          : "-"
 name                     : &name "Zhaoxu Zheng"
-description              : &description "MS CS Student at UC San Diego"
+description              : &description "Computer Vision, Medical Image Analysis, and Deep Learning"
 url                      : "https://0ozcharles.github.io"
 baseurl                  : ""
 repository               : "0ozcharles/0ozcharles.github.io"
 
 # Site Author
 author:
-  avatar           : "profile.png"
-  name             : "Zhaoxu Zheng (郑朝旭)"
+  avatar           : "profile.jpg"
+  name             : "Zhaoxu Zheng"
   pronouns         :
-  bio              : "Incoming MS CS student at UC San Diego. Research interests: Computer Vision, Medical Image Analysis, Deep Learning."
-  location         : "Jiangsu, China → San Diego, CA"
-  employer         : "UC San Diego"
+  bio              : "Computer Science student focused on Computer Vision, Medical Image Analysis, and Deep Learning."
+  location         : "Jiangsu, China"
+  employer         : "Harbin University of Science and Technology"
   uri              :
   email            : "0zcharles318@gmail.com"
 
@@ -130,7 +130,7 @@ og_image                 :
 og_description           :
 social:
   type                   :
-  name                   :
+  name             : "Zhaoxu Zheng"
   links:
 
 # Analytics
@@ -200,9 +200,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -230,14 +227,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-
 # Sass/SCSS
 sass:
   sass_dir: _sass

@@ -7,18 +7,16 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 {% assign cv_data = site.data.cv %}
 
 ## Education
 {% for edu in cv_data.education %}
-- **{{ edu.institution }}** — {{ edu.area }}{% if edu.endDate %}, {{ edu.endDate }}{% endif %}
+- **{{ edu.institution }}** - {{ edu.area }}{% if edu.endDate %}, {{ edu.endDate }}{% endif %}
 {% endfor %}
 
 ## Work Experience
 {% for job in cv_data.work %}
-- **{{ job.position }}**, {{ job.company }}
+- **{{ job.position }}**, {{ job.company }}{% if job.summary %}. {{ job.summary }}{% endif %}
 {% endfor %}
 
 ## Publications
